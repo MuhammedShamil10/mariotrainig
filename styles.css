@@ -115,4 +115,24 @@ footer{
     padding: 10px;
     text-align: center;
 }
+nav li a:hover{
+    text-decoration: underline;
+}
+.images li:hover{
+ position: relative;
+ top: -4px;
+}
+forminput:focus  input:focus{
+    border: 1px dashed #f63232;
+    outline: none;
+}
+form input:valid{
+    border: 1px solid #71d300;
+}
+p::first-letter{
+    color: #f63232;
+}
+p::first-line{
+    font-weight: bold;
 
+}
