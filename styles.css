@@ -52,7 +52,7 @@ nav ul{
     white-space: nowrap;
 }
 nav li{
-    width: 25%;
+    width: 24%;
     font-size: 24px;
     display: inline-block;
 }
@@ -71,7 +71,6 @@ main{
     box-sizing: border-box;
     
 } 
-
 article h2{
     color: #f63232;
     font-size: 48px;
@@ -135,4 +134,102 @@ p::first-letter{
 p::first-line{
     font-weight: bold;
 
+}
+
+@media screen and (max-width:1119px){
+    .banner h2{
+        font-size: 50px;
+    }
+    .banner .welcome{
+        top: 40%; 
+    }
+    .images li{
+        width: 45%;
+        margin: 20px 20px;
+    }
+    nav ul li{
+        font-size: 20px;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:925px){
+    .images li{
+        width: 40%;  
+    }
+    nav ul li{
+        font-size: 19px;
+        width: 22%;
+    }
+}
+
+@media screen and (max-width:721px){
+    .images li{
+        width: 100%; 
+        margin: 20px 0px;
+    }
+
+    .banner .welcome{
+        position: relative;
+        padding: 10px;
+    }
+    .banner h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .banner h2 br{
+        display: none;
+    }
+    .banner h2 span{
+        font-size: 1em;
+    }
+    article p{
+        text-align: left;
+    }
+    nav ul li{
+        font-size: 19px;
+        width: 21%;
+    }
+    header {
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width:617px){
+    nav ul li{
+        font-size: 15px;
+        width: 22%;
+    }
+    header{
+        position: relative;
+        height: 50px;
+        } 
+        header {
+            margin-right: 50px;
+        }
+
+
+}
+@media screen and (max-width:497px){
+    nav li{
+    display: block;
+    }
+    article p{
+    line-height: 22px;
+    }
+     header{
+    position: relative;
+    height: 50px;
+    } 
+    nav{
+        top: 0;
+    }
+    form input{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width:325px){
+    form input{
+        width: 80%;
+    }
 }
